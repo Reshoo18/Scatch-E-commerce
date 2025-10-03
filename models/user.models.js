@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongoose://1w7.0.0.1:2701/scatcher")
+mongoose.connect("mongodb://1w7.0.0.1:2701/scatcher")
 
 const userSchema = mongoose.Schema({
     
